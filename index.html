@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br" >
+<head>
+  <meta charset="UTF-8">
+  <title>21 - Blackjack</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<head>
+  <title>
+    BlackJack
+  </title>
+</head>
+
+<body>
+  <div id="container">
+
+    <h1>BlackJack</h1>
+    <button id="btnRegras" onclick="mostrarRegras()">Regras</button><br>
+
+    <div id="mostrarRegras" class="mostrar-regras"></div>
+
+    <div class="botoes">
+      <button id="btnSortear" onclick="sortearCarta()" disabled="false">Pedir carta</button>
+      <button id="btnParar" onclick="parar()" disabled="false">Parar</button>
+    </div>
+
+    <div class="borda-mesa">
+      <div class="mesa" id="mesa"></div>
+    </div>
+    <div class="resultado-cartas" id="resultadoCartas"></div><br><br><br>
+  </div>
+</body>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

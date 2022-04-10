@@ -1,0 +1,116 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  background-image: url("https://www.melhoresdestinos.com.br/wp-content/uploads/2022/02/legalizacao-jogos-cassino-brasil-capa-02.jpg");
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #000;
+}
+
+#btnRegras {
+  border: none;
+  border-radius: 5px;
+}
+
+p {
+  color: white;
+}
+
+.mostrar-regras {
+  width: 800px;
+}
+
+.botoes #btnSortear,
+#btnParar {
+  height: 30px;
+  width: 100px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+#btnSortear {
+  background-color: #07da63;
+  color: #fff;
+  cursor: pointer;
+}
+
+#btnParar {
+  background-color: #ed4337;
+  color: #fff;
+  cursor: pointer;
+}
+
+.borda-mesa {
+  margin-top: 20px;
+  background-image: url("https://img.freepik.com/free-photo/dark-wooden-texture-surface_24836-84.jpg");
+  border-radius: 10px;
+}
+
+.mesa {
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  background-image: url("https://media.istockphoto.com/photos/green-velvet-pool-table-texture-picture-id181458477?k=20&m=181458477&s=170667a&w=0&h=IxyodRoQReF6_bl9GmcJHJ44jQcRc6-mCr025TTvgx8=");
+  height: 300px;
+  width: 800px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 32px;
+}
+
+.jogador {
+  display: flex;
+  align-items: center;
+  width: 200px;
+  height: 300px;
+  border: solid 1px black;
+  border-radius: 20px;
+  color: blue;
+  background-color: white;
+}
+.jogador h2 {
+  margin-left: 60px;
+  margin-right: 40px;
+  font-size: 7rem;
+}
+
+.maquina {
+  display: flex;
+  align-items: center;
+  width: 200px;
+  height: 300px;
+  border: solid 1px black;
+  border-radius: 20px;
+  margin-left: 400px;
+  color: red;
+  background-color: white;
+}
+
+.maquina h2 {
+  margin-left: 60px;
+  margin-right: 40px;
+  font-size: 7rem;
+}
+
+.resultado-cartas {
+  margin-top: 5px;
+  text-align: center;
+  background-color: #000;
+  color: white;
+}
